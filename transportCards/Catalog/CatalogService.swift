@@ -12,7 +12,7 @@ enum NetworkError: Error {
     case emptyData
 }
 
-let endpoint = "http://172.20.10.3:8080"
+let endpoint = "http://192.168.1.9:8080"
 // let endpoint = "http://localhost:8080"
 
 final class CatalogService {

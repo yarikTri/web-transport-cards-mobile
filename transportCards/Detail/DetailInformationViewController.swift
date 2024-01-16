@@ -75,7 +75,7 @@ private extension DetailInformationViewController {
                         route.image_uuid
                     }
                     
-                    let imageUrl = "http://localhost:9000/images/\(imageUUID)"
+                    let imageUrl = "http://192.168.1.9:9000/images/\(imageUUID)"
                     guard let photoUrl = URL(string: imageUrl) else {
                         return
                     }
